@@ -38,9 +38,9 @@ body {
 }
 
 #about-bg {
-  background-image: url("/supportingFolder/spartan_quote_bg.jpg");
+  /* background-image: url("/supportingFolder/spartan_quote_bg.jpg");
   /* background-size: cover; */
-  background-position: center;
+  background-position: cover; */
   padding: 20px;
   color: white;
   text-align: center;
@@ -48,8 +48,29 @@ body {
 #about-body {
   background-image: url("/supportingFolder/spartan_quote_bg.jpg");
   /* background-size: cover; */
-  background-position: center;
+  background-position: stretch;
   padding: 20px;
   color: white;
   text-align: center;
+}
+
+#quotep {
+  float: right;
+}
+
+section > div {
+  height: 200px;
+  width: 50%;
+  background-color: black;
+  align: center;
+}
+
+.jp-position {
+  color: orange
+}
+
+.start-end-date {
+  color: red;
+  font-style: italic;
+
 }
