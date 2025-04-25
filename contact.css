@@ -1,0 +1,27 @@
+body {
+   /* background-image: url("/supportingFolder/rect2_bg.jpg"); */
+   background-color: rgba(8, 8, 8, 0.888);
+   font-family: Arial, sans-serif;
+   color: white;
+ }
+
+ .navbar ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   background-color: black;
+   overflow: hidden;
+}
+.navbar a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 15px;
+   text-decoration: none;
+}
+.navbar a:hover {
+   background-color: #000000;
+}
+.navbar li {
+ float: left;
+ }
