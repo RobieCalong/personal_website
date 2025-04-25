@@ -25,3 +25,37 @@ body {
 .navbar li {
  float: left;
  }
+
+ .grid-container{
+   display: grid;
+   grid-template-columns: 50% 50%;
+}
+
+section {
+   border-radius: 12px;
+   padding: 10px;
+   background-color: black;
+   margin: 10px;
+}
+section:hover {
+   border: 1px solid red;
+   background-color: grey;
+   cursor: pointer;
+   color: orange;
+}
+
+ form {
+   display: flex;
+   flex-direction: column;
+   height: calc(100% + 100px);
+ }
+
+  /* if the windows changes to different size */
+  @media(max-width: 800px){
+   .grid-container{
+       display: flex;
+       flex-direction: column;
+       justify-content:center;
+       align-items: center;
+   }
+ }
