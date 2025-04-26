@@ -1,0 +1,61 @@
+body {
+   /* background-image: url("/supportingFolder/rect2_bg.jpg"); */
+   background-color: rgba(8, 8, 8, 0.888);
+   font-family: Arial, sans-serif;
+   color: white;
+ }
+
+ .navbar ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   background-color: black;
+   overflow: hidden;
+}
+.navbar a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 15px;
+   text-decoration: none;
+}
+.navbar a:hover {
+   background-color: #000000;
+}
+.navbar li {
+ float: left;
+ }
+
+ .grid-container{
+   display: grid;
+   grid-template-columns: 50% 50%;
+}
+
+section {
+   border-radius: 12px;
+   padding: 10px;
+   background-color: black;
+   margin: 10px;
+}
+section:hover {
+   border: 1px solid red;
+   background-color: grey;
+   cursor: pointer;
+   color: orange;
+}
+
+ form {
+   display: flex;
+   flex-direction: column;
+   height: calc(100% + 100px);
+ }
+
+  /* if the windows changes to different size */
+  @media(max-width: 800px){
+   .grid-container{
+       display: flex;
+       flex-direction: column;
+       justify-content:center;
+       align-items: center;
+   }
+ }

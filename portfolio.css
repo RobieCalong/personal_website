@@ -1,0 +1,77 @@
+body {
+   /* background-image: url("/supportingFolder/rect2_bg.jpg"); */
+   background-color: rgba(8, 8, 8, 0.888);
+   font-family: Arial, sans-serif;
+   color: white;
+ }
+
+ .navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+ }
+ .navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+ }
+ .navbar a:hover {
+    background-color: #000000;
+ }
+ .navbar li {
+  float: left;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: left;
+  }
+
+  #work {
+   text-align: left;
+  }
+
+  .jp-position {
+   color: orange;
+ }
+ 
+ .start-end-date {
+   color: red;
+   font-style: italic;
+   text-align: right;
+ }
+
+ .entry {
+   border-radius: 12px;
+   padding: 10px;
+   background-color: black;
+   margin: 10px;
+   width: 70%;
+   position: relative;
+   left: 8%;
+}
+
+ @media(max-width: 1000px){
+   .flex-section-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   }
+   .entry {
+      border-radius: 12px;
+      padding: 10px;
+      background-color: black;
+      margin: 10px;
+      width: 56%;
+      position: abosolute;
+      left: 0px;
+   }
+}

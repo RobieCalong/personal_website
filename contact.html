@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contact Page</title>
+   <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+   <header>
+      <nav class="navbar">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+         </ul>
+      </nav>
+   </header>
+
+   <h1>Contact Me:</h1>
+
+   <div class="grid-container">
+      <section class="contact-me-section">
+         <h2>Please Enter Your Information:</h2>
+         <form action="./success.html">
+            <label for="full_name">Name:</label>
+            <input name="full_name" type="text" />
+
+            <label for="phone_number">Phone Number:</label>
+            <input name="phone_number" type="tel" />
+
+            <label for="email">Email:</label>
+            <input name="email" type="email" />
+
+            <label for="message">Message:</label>
+            <textarea name="message" rows="4" cols="50" maxlength="200"></textarea>
+         </form>
+      </section>
+
+      <section>
+         <h2>Tell us your area of interest:</h2>
+         <form action="./success.html">
+            <label for="html">
+                <input name="fav_language" id="html" type="radio" value="html"/>
+                HTML
+            </label>
+
+            <label for="css">
+                <input name="fav_language" id="css" type="radio" value="css"/>
+                CSS
+            </label>
+
+            <label for="javascript">
+                <input name="fav_language" id="javascript" type="radio" value="javascript"/>
+                Javascript
+            </label>
+
+            <label for="React">
+               <input name="fav_language" id="react" type="radio" value="react"/>
+               React
+           </label>
+        </form>
+      </section>
+
+      <section>
+         <h2>Describe what are you hobbies:</h2>
+         <form action="./success.html">
+            <label for="hobby1">Hobby 1:</label>
+            <textarea name="hobby1" rows="4" cols="50" maxlength="200"></textarea>
+
+            <label for="hobby2">Hobby 2:</label>
+            <textarea name="hobby2" rows="4" cols="50" maxlength="200"></textarea>
+         </form>
+      </section>
+
+      <section>
+         <h2>Let us know what we can improve on:</h2>
+         <form action="./success.html">
+            <label for="comments">Comments:</label>
+            <textarea name="comments" rows="8" cols="50" maxlength="400"></textarea>
+
+            <input type="submit" value="Submit" id="submit"/>
+         </form>
+      </section>
+   </div>
+
+
+</body>
+</html>
