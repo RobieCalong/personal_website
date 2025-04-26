@@ -1,0 +1,92 @@
+body {
+   /* background-image: url("/supportingFolder/rect2_bg.jpg"); */
+   background-color: rgba(8, 8, 8, 0.888);
+   font-family: Arial, sans-serif;
+   color: white;
+ }
+
+ .navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+ }
+ .navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+ }
+ .navbar a:hover {
+    background-color: #000000;
+ }
+ .navbar li {
+  float: left;
+  }
+
+  h1 {
+   text-align: center;
+ }
+
+ h2 {
+   text-align: center;
+   color: orange;
+ }
+
+ h3 {
+   text-align: left;
+   color: red;
+ }
+
+ .grid-container{
+   display: grid;
+   grid-template-columns: 33% 33% 33%;
+}
+
+section {
+   border-radius: 12px;
+   padding: 10px;
+   background-color: black;
+   margin: 10px;
+}
+
+  /* if the windows changes to different size */
+  @media(max-width: 1400px){
+   .grid-container{
+       display: flex;
+       flex-direction: column;
+       justify-content:center;
+       align-items: center;
+   }
+ }
+
+ a:link {
+   color: orange;
+   background-color: transparent;
+   text-decoration: none;
+ }
+ 
+ a:visited {
+   color: orange;
+   background-color: transparent;
+   text-decoration: none;
+ }
+ 
+ a:hover {
+   color: red;
+   background-color: transparent;
+   text-decoration: underline;
+ }
+ 
+ a:active {
+   color: yellow;
+   background-color: transparent;
+   text-decoration: underline;
+ }
+
+ #midi-pic {
+   display: block;
+   margin: auto;
+ }
